@@ -5,7 +5,7 @@ import ProductCard from "../components/ProductCard";
 const Products = () => {
   return (
 
-<div className="xl:px-24 xl:w-1/3 xl:flex xl:justify-between xl:w-full xl:gap-10 mb-14 px-4 py-2 ">
+<div className="xl:px-24 xl:w-1/3 xl:flex xl:justify-between xl:w-full xl:gap-10 mb-14 px-4 py-2">
       <section className="xl:w-1/3 mb-10">
         <Title title={"PRODUCTS"} />
         <h2 className="xl:text-5xl xl:font-semibold xl:leading-tight text-2xl font-semibold leading-loose">
@@ -20,8 +20,8 @@ const Products = () => {
         </span>
       </section>
       <section className="xl:flex xl:flex-row xl:w-2/3 xl:gap-10 flex flex-col gap-10">
-        {productData.map((data)=>{
-           return <ProductCard data={data}/>
+        {productData.map((data,index)=>{
+           return <ProductCard data={data} key={data.id}/>
         })}
       </section>
   

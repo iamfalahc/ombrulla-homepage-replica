@@ -10,7 +10,7 @@ const PlayButtonSmall = ({buttonText}) => {
           viewBox="0 0 20 20"
           fill="#ffffff"
           aria-hidden="true"
-          class="h-4 w-4 xl:h-7 xl:w-7"
+          className="h-4 w-4 xl:h-7 xl:w-7"
           data-astro-cid-ehvcvm4h="true"
         >
           <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"></path>
