@@ -1,16 +1,14 @@
-import React from 'react'
+import React from "react";
 
-const Title = ({title}) => {
+const Title = ({ title }) => {
   return (
     <div>
-           <div className="flex items-center gap-4">
-            <span className="w-2 h-2 bg-sky-700"></span>
-            <span className="font-medium">
-           {title}
-            </span>
-          </div>
+      <div className="flex items-center gap-4">
+        <span className="w-2 h-2 bg-sky-700"></span>
+        <span className="font-medium">{title}</span>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Title
+export default Title;

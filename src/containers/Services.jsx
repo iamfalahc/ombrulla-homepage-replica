@@ -1,5 +1,5 @@
 import React from 'react'
-import serviceData from '../dummy-data/dummyData'
+import serviceData from '../dummy-data/serviceData'
 import ServiceCard from '../components/ServiceCard'
 
 const Services = () => {
