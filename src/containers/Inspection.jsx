@@ -33,7 +33,7 @@ const Inspection = () => {
       </section>
       <section className="m-auto">
         <img
-          className="object-cover banner-img"
+          className="object-cover banner-img mb-16"
           src="https://www.ombrulla.com/_astro/ai-visual-inspection_banner_1.f3232628_ZyIKMH.webp"
           alt=""
         />
