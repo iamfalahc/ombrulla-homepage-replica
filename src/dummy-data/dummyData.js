@@ -1,5 +1,5 @@
 import aiFoodImage from "../images/ai-food2.7e761c87_TNwbv.webp";
-import aiVisualInspectionImage from "../images/ai-visual-inspection_banner_1.f3232628_ZyIKMH.webp";
+import aiVisualInspectionImage from "../images/bridge.828c5106_Z2mJkOa.webp";
 const serviceData = [
   {
     id: 1,
