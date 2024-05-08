@@ -5,7 +5,7 @@ const Title = ({title}) => {
     <div>
            <div className="flex items-center gap-4">
             <span className="w-2 h-2 bg-sky-700"></span>
-            <span className="xl:font-medium">
+            <span className="font-medium">
            {title}
             </span>
           </div>

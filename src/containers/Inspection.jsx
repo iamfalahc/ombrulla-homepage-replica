@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../components/Button";
 import "./container.css"
 import PlayButton from "../components/PlayButton";
+import bannerImage from "../images/ai-visual-inspection_banner_1.f3232628_ZyIKMH.webp"
 
 const Inspection = () => {
   return (
@@ -34,8 +35,8 @@ const Inspection = () => {
       <section className="m-auto">
         <img
           className="object-cover banner-img mb-16"
-          src="https://www.ombrulla.com/_astro/ai-visual-inspection_banner_1.f3232628_ZyIKMH.webp"
-          alt=""
+          src={bannerImage}
+          alt="banner-image"
         />
       </section>
     </div>
