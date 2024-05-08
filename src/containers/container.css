@@ -1,0 +1,6 @@
+.banner-img{
+    mask-image: url(https://www.ombrulla.com/images/home/mask-banner.png);
+    mask-size: cover;
+    width: 500px;
+    height: 506px;
+}

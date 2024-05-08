@@ -4,7 +4,7 @@ import "./components.css"
 const Button = () => {
   return (
     <div>
-      <button className='schedule-button'>Schedule Call</button>
+      <button className='button-primary py-4 px-7 rounded-full'>Schedule Call</button>
     </div>
   )
 }
