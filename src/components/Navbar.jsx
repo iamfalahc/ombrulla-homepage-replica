@@ -4,7 +4,7 @@ import {NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between px-24 pt-8 '>
+    <nav className='flex justify-between px-24 pt-8 hidden '>
      <section>
         <img className='w-32' src="	https://www.ombrulla.com/logo.svg"alt="" />
      </section> 
