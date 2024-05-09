@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import Services from "./pages/Services";
 import Product from "./pages/Product";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             <Route path="/product" Component={Product} />
           </Route>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
