@@ -8,39 +8,36 @@ import Services from "./pages/Services";
 import Product from "./pages/Product";
 
 function App() {
-  return <div className="App">
-
-
-  <BrowserRouter>
-  <Navbar />
-  <Routes>
-
-<Route>
-  <Route  path="/" Component={Home}/>
-</Route>
-<Route>
-  <Route  path="/services" Component={Services}/>
-</Route>
-<Route>
-  <Route  path="/about" Component={About}/>
-</Route>
-<Route>
-  <Route  path="/contact" Component={Contact}/>
-</Route>
-<Route>
-  <Route  path="/blog" Component={Blog}/>
-</Route>
-<Route>
-  <Route  path="/services" Component={Services}/>
-</Route>
-<Route>
-  <Route  path="/product" Component={Product}/>
-</Route>
-
-
-  </Routes>
-  </BrowserRouter>
-  </div>;
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route>
+            <Route path="/" Component={Home} />
+          </Route>
+          <Route>
+            <Route path="/services" Component={Services} />
+          </Route>
+          <Route>
+            <Route path="/about" Component={About} />
+          </Route>
+          <Route>
+            <Route path="/contact" Component={Contact} />
+          </Route>
+          <Route>
+            <Route path="/blog" Component={Blog} />
+          </Route>
+          <Route>
+            <Route path="/services" Component={Services} />
+          </Route>
+          <Route>
+            <Route path="/product" Component={Product} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;
