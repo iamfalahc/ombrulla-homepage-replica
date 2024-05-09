@@ -21,15 +21,15 @@ const Navbar = () => {
               <NavLink
                 exact
                 to="/"
-                activeClassName="bg-blue-500"
-                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-primary"
+                
+                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 Home
               </NavLink>
               <NavLink
                 to="/services"
                 activeClassName="bg-blue-500"
-                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-primary"
+                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 Services
               </NavLink>
@@ -37,28 +37,28 @@ const Navbar = () => {
               <NavLink
                 to="/product"
                 activeClassName="text-blue"
-                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-primary"
+                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 Product
               </NavLink>
               <NavLink
                 to="/about"
                 activeClassName="text-"
-                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-primary"
+                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 About
               </NavLink>
               <NavLink
                 to="/blog"
                 activeClassName="text-white"
-                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-primary"
+                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 Blog
               </NavLink>
               <NavLink
                 to="/contact"
                 activeClassName="text-white"
-                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-primary"
+                className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 Contact
               </NavLink>

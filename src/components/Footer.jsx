@@ -5,8 +5,8 @@ const Footer = () => {
     <footer className="flex flex-col px-6 py-10 xl:px-24 ">
       <div className="flex flex-col gap-10 xl:flex xl:flex-row xl:justify-between">
         <section className="flex flex-col gap-2 xl:w-1/4 xl:gap-8">
-          <h2 className="text-2xl font-medium text-white">About Us</h2>
-          <span className="text-[#8A99B4] leading-snug">
+          <h2 className="text-xl font-medium text-white">About Us</h2>
+          <span className="text-[#8A99B4] leading-snug text-sm">
             Ombrulla is an AI-driven company providing specialized services like
             AI Visual Inspection, AI People Tracking, AI Defect Detection, AI
             Infrastructure Inspection, and AI Data Analytics. Our tailored
@@ -18,8 +18,8 @@ const Footer = () => {
           </span>
         </section>
         <section className="flex flex-col gap-2 xl:w-1/4 xl:gap-8">
-          <h2 className="text-2xl font-medium text-white">Our Services</h2>
-          <ul className="text-[#8A99B4] leading-snug flex flex-col gap-2">
+          <h2 className="text-xl font-medium text-white">Our Services</h2>
+          <ul className="text-[#8A99B4] leading-snug flex flex-col gap-2 text-sm">
             <li>AI Infrastructure Inspection</li>
             <li>AI Visual Inspection</li>
             <li>AI Data Analytics</li>
@@ -27,31 +27,31 @@ const Footer = () => {
           </ul>
         </section>
         <section className="flex flex-col gap-2 xl:w-1/4 xl:gap-8">
-          <h2 className="text-2xl font-medium text-white">Our Solutions</h2>
-          <ul className="text-[#8A99B4] leading-snug flex flex-col gap-2">
+          <h2 className="text-xl font-medium text-white">Our Solutions</h2>
+          <ul className="text-[#8A99B4] leading-snug flex flex-col gap-2 text-sm">
             <li>Asset Performance Management</li>
             <li>RTLS - Workplace Safety</li>
             <li>Environmental Sustainability</li>
           </ul>
         </section>
         <section className="flex flex-col gap-4 xl:w-1/4 xl:gap-8">
-          <h2 className="text-2xl font-medium text-white">Reach Us</h2>
+          <h2 className="text-xl font-medium text-white">Reach Us</h2>
           <div>
-            <ul className="text-[#8A99B4] leading-snug flex flex-col gap-2">
+            <ul className="text-[#8A99B4] leading-snug flex flex-col gap-2 text-sm">
               <li>United Kingdom,7 Bell Yard</li>
               <li>London, WC2A 2JR</li>
               <li>+44 7879 993892</li>
             </ul>
           </div>
           <div>
-            <ul className="text-[#8A99B4] leading-snug flex flex-col gap-2">
+            <ul className="text-[#8A99B4] leading-snug flex flex-col gap-2 text-sm">
               <li>Germany, Schützenstraße 51A</li>
               <li>Lübeck, 23558</li>
               <li>+49 179 512 5812</li>
             </ul>
           </div>
           <div>
-            <ul className="text-[#8A99B4] leading-snug flex flex-col gap-2">
+            <ul className="text-[#8A99B4] leading-snug flex flex-col gap-2 text-sm">
               <li>India, No. 154/20, Royal Space</li>
               <li>Third Floor TI, HSR Layout,</li>
               <li>Bangalore, Karnataka</li>

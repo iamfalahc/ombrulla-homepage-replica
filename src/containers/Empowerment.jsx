@@ -6,7 +6,7 @@ import Title from "../components/Title";
 
 const Empowerment = () => {
   return (
-    <div className="px-4 py-2 xl:px-24">
+    <div className="px-4 py-2 xl:px-24 mt-10">
       <div className="flex justify-center items-center bg-slate-200 px-3 py-6 rounded-3xl xl:px-48 xl:py-16 mb-14 ">
         <div className="pl-2 pt-3 pb-3 flex flex-col gap-y-4 ">
      <Title title={"Leader in AI visual inspection"}/>
