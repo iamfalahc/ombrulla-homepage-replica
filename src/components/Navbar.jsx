@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
@@ -21,14 +20,15 @@ const Navbar = () => {
               <NavLink
                 exact
                 to="/"
-                
+                activeClassName="nav-active" 
                 className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
+                
                 Home
               </NavLink>
               <NavLink
                 to="/services"
-                activeClassName="bg-blue-500"
+                activeClassName="nav-active"
                 className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 Services
@@ -36,28 +36,28 @@ const Navbar = () => {
 
               <NavLink
                 to="/product"
-                activeClassName="text-blue"
+                activeClassName="nav-active"
                 className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 Product
               </NavLink>
               <NavLink
                 to="/about"
-                activeClassName="text-"
+                activeClassName="nav-active"
                 className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 About
               </NavLink>
               <NavLink
                 to="/blog"
-                activeClassName="text-white"
+                activeClassName="nav-active"
                 className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 Blog
               </NavLink>
               <NavLink
                 to="/contact"
-                activeClassName="text-white"
+                activeClassName="nav-active"
                 className="rounded-md px-3 py-2 font-bold font-sans text-black hover:text-blue-600"
               >
                 Contact
