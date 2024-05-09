@@ -6,7 +6,7 @@ import bannerImage from "../images/ai-visual-inspection_banner_1.f3232628_ZyIKMH
 
 const Inspection = () => {
   return (
-    <div className="px-8 xl:px-24 flex flex-col xl:flex-row mt-8 xl:justify-between gap-y-16">
+    <div className="px-8 xl:px-24 flex flex-col xl:flex-row xl:justify-between gap-y-16 bg-gradient-to-br from-gray-300 via-gray-200 to-blue-200">
       <section className="flex flex-col xl:w-2/4 justify-center gap-8">
         <div className="">
           <h4 className="xl:text-6xl text-5xl leading-tight font-albert-sans font-bold">

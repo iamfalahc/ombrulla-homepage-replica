@@ -1,25 +1,3 @@
-// import React from 'react'
-// import {NavLink } from 'react-router-dom'
-
-// const Navbar = () => {
-//   return (
-//     <nav className='flex justify-between px-24 pt-8'>
-//      <section>
-//         <img className='w-32' src="	https://www.ombrulla.com/logo.svg"alt="" />
-//      </section>
-//      <section className='flex gap-x-12'>
-//         <NavLink className="rounded-md px-3 py-2  font-bold font-sans text-primary hover:text-primary" to={"/"}>Home</NavLink>
-//         <NavLink className="rounded-md px-3 py-2  font-bold font-sans text-primary hover:text-primary" to={"/services"}>Services</NavLink>
-//         <NavLink className="rounded-md px-3 py-2  font-bold font-sans text-primary hover:text-primary" to={"/product"}>Product</NavLink>
-//         <NavLink className="rounded-md px-3 py-2  font-bold font-sans text-primary hover:text-primary" to={"/about"}>About</NavLink>
-//         <NavLink className="rounded-md px-3 py-2  font-bold font-sans text-primary hover:text-primary" to={"/blog"}>Blog</NavLink>
-//         <NavLink className="rounded-md px-3 py-2  font-bold font-sans text-primary hover:text-primary" to={"/contact"}>Contact</NavLink>
-//      </section>
-//     </nav>
-//   )
-// }
-
-// export default Navbar
 
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -28,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-sky-100">
+    <nav className="bg-sky-100 bg-gradient-to-r from-indigo-900 via-purple-400 to-blue-500bg-gradient-to-r from-navy-900 to-cyan-200bg-gradient-to-r from-navy-900 via-cyan-400 to-blue-100bg-gradient-to-br from-gray-200 via-teal-200 to-blue-200bg-gradient-to-br from-teal-200 via-gray-200 to-blue-200bg-gradient-to-br from-gray-300 via-gray-200 to-blue-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
